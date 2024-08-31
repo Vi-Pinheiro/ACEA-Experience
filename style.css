@@ -26,17 +26,23 @@ body {
 #painel_nav {
     height: 500px;
     background-image: url(imagens/dog_dog.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.445);
 }
 
 #nav_click {
     max-width: 1200px;
     margin: auto;
+    padding: 15px;
     display: flex;
     align-items: center;
+}
+
+#nav_click > nav {
+    position: absolute;
+    left: 73%;
 }
 
 .nav_item {
@@ -50,5 +56,5 @@ body {
 
 #logo {
     width: 80px;
-    padding: 15px 700px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
