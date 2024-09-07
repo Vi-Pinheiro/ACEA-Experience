@@ -2,10 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body {
+:root {
+    --fonte_geral: "Open Sans", sans-serif;
+}
+
+/*Gerais ---------------------------------------------------------------*/
+
+* {
     margin: 0px;
     padding: 0px;
 }
+
+html, body {
+    font-family: var(--fonte_geral);
+    background-color: white;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*Específicas ---------------------------------------------------------------*/ 
 
 #redes_sociais {
     background-color: skyblue;
@@ -17,7 +44,7 @@ body {
     margin: auto;
 }
 
-.img_redes {
+.img_redes_nav {
     width: 35px;
     height: 35px;
     padding: 5px;
@@ -54,7 +81,44 @@ body {
     margin: 0px 0px 0px 15px;
 }
 
+.nav_item:hover {
+    color: black;
+    font-weight: bolder;
+}
+
 #logo {
     width: 80px;
     padding: 15px 0px 0px 0px;
+}
+
+/*Footer ---------------------------------------------------------------*/
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+footer > div {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    padding: 10px 10px 10px 0px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    margin-left: 10px;
+}
+
+.redes_img_footer {
+    max-width: 35px;
 }

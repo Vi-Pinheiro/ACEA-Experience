@@ -1,6 +1,8 @@
 # ACEA Experience
- Repositório do projeto de formação ACEA Experience.
+ Repositório do projeto, da instituição de formação, **ACEA Experience**.
+
+## Referências
+- Painel e fontes de navegação: **Universidade de Fortaleza** (https://unifor.br/).
 
 ## Atualização:
-- Esboço inicial do projeto.
-- Referência de painel e fontes de navegação: **Universidade de Fortaleza** (https://unifor.br/).
+- Desenvolvimento do *Footer* e continuando pesquisa de referências.
